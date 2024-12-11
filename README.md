@@ -78,6 +78,14 @@ screen -S fuel-mainnet
 
 then edit this command and run it in the screen. change {P2P_PRIVATE_KEY} and {ETHEREUM_RPC_ENDPOINT} to your secret and ETH mainnet rpc.
 
+also be sure that 4000 and 30333 are useabl with this command:
+
+```bash
+lsof -i :4000
+lsof -i :3000
+```
+if these ports are in use, change them with proper ports.
+
 ```bash
 fuel-core run \
 --enable-relayer \
@@ -97,3 +105,11 @@ fuel-core run \
 ```
 
 detach from screen with Ctl + A + D
+
+## Join our Telegram Channel
+
+For more bots and tutorials you can join our Telegram channel
+
+[**UbuntuForNodes**](https://t.me/ubuntufornodes)
+
+also you can follow me on [X(iamshaho)](https://x.com/iamshaho)
