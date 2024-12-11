@@ -2,6 +2,14 @@
 
 I don't know its late or not, but you can run Fuel mainnet node with this repo
 
+## Hardware Requirements
+
+| Hardware  | Minimum |
+| ------------- | ------------- |
+| Processor  | 2 Cores  |
+| Memory  | 4 GB  |
+| Storage  | 30 GB  |
+
 
 ## Installation
 
